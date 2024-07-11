@@ -15,8 +15,8 @@ This project showcases the implementation of two language models—Bigram and Tr
 
 ## Performance Metrics:
 ### Bigram Language Model:
-- **Accuracy:** 26.8%
-- **Perplexity:** 12%
+- **Accuracy:** 26.75%
+- **Perplexity:** 12.3%
 - **Output Example:** "F,
 De IOKI by po yod seroummeesot harist p bofeat,-sed held dw wir owh y minindele,
 Tuer, 'thengnalow, t'som ESiruthat t meaknave, ESSI ttho wnotyot gr ume aworemind indeang teestrowo irofonrme thealaun; ounureanghllke s y.
@@ -24,7 +24,7 @@ S:'d qusoouk t t penoow s..."
 
 ### Transformer-based Model:
 - **Accuracy:** 52.12%
-- **Perplexity:** 5.7
+- **Perplexity:** 5.7%
 - **Output Example:** "SOMERSET:
 An far conjural, it all, Jove from with you nest.
 KING HENRY VI:
