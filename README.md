@@ -23,9 +23,12 @@ Tuer, 'thengnalow, t'som ESiruthat t meaknave, ESSI ttho wnotyot gr ume aworemin
 S:'d qusoouk t t penoow s..."
 
 ### Transformer-based Model:
-- **Accuracy:** [Insert Accuracy Value]
-- **Perplexity:** [Insert Perplexity Value]
-- **Output Example:** "So is a gods eye and have not begot. Peace that turn city this fourtune's habroped..."
+- **Accuracy:** 52.12%
+- **Perplexity:** 5.7
+- **Output Example:** "SOMERSET:
+An far conjural, it all, Jove from with you nest.
+KING HENRY VI:
+Well, runrided-should first have won the shall nothing my fites, me by thou bray gake,"
 
 ## Conclusion:
 By implementing these models, this project illustrates the evolution from a basic bigram model to a sophisticated transformer architecture. The transformer model significantly enhances text generation quality, producing coherent and meaningful outputs compared to the bigram model.
@@ -33,5 +36,4 @@ By implementing these models, this project illustrates the evolution from a basi
 This repository serves as a testament to the progression in language model architectures, showcasing improved performance metrics and text generation capabilities.
 
 ---
-**Author:** [Your Name]
-**GitHub Repository:** [Link to Your GitHub Repository]
+
