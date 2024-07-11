@@ -73,7 +73,7 @@ This project illustrates the progression from a basic Bigram model to an advance
 4. **Evaluation**: Evaluate the models using the provided evaluation scripts to measure their performance.
 5. **Text Generation**: Use the trained models to generate text and compare their outputs.
 
-##Future Work:
+## Future Work:
 Hyperparameter Tuning: Experiment with different hyperparameters to further improve model performance.
 Larger Datasets: Train the models on larger and more diverse datasets for better generalization.
 Advanced Architectures: Explore more advanced architectures like GPT-3 or BERT for even better performance.
