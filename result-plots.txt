@@ -1,0 +1,32 @@
+> Loss Plot
+
+ Description:
+	The loss plot shows the training and validation loss values over the training epochs for the Bigram Language Model and Transformer-based Model. Loss is a measure of how well the model's predictions match the actual data, with lower values indicating better performance.
+
+ Bigram Language Model:
+- **Training Loss**: The loss decreases gradually as the model learns to predict the next word based on the previous word and its positional context.
+- **Validation Loss**: The validation loss follows a similar decreasing trend, reflecting that the model generalizes well to unseen data.
+
+ Transformer-based Model:
+- **Training Loss**: The training loss drops significantly, demonstrating the model's ability to learn complex patterns and relationships within the data using multi-head self-attention.
+- **Validation Loss**: The validation loss also decreases but might show minor fluctuations, indicating the model's capacity to handle overfitting and improve generalization.
+
+> Accuracy Plot
+  Description:
+	The accuracy plot displays the training and validation accuracy over the training epochs for both the Bigram Language Model and Transformer-based Model. Accuracy measures the proportion of correct predictions made by the model.
+
+ Bigram Language Model:
+- **Training Accuracy**: The accuracy increases steadily, indicating that the model improves its predictions based on the bigram context and positional embeddings.
+- **Validation Accuracy**: The validation accuracy shows a significant improvement, highlighting the model's effectiveness in understanding the context and predicting the next word.
+
+ Transformer-based Model:
+- **Training Accuracy**: The training accuracy rises sharply, demonstrating the model's ability to capture intricate dependencies and patterns through multi-head self-attention.
+- **Validation Accuracy**: The validation accuracy experiences a notable boost, reflecting the model's superior performance in generating coherent and contextually accurate text.
+
+ Interpretation:
+- **Bigram Language Model**: The gradual improvement in loss and accuracy indicates that the model effectively leverages token and position embeddings to understand and predict the next word in the sequence. The improvements in validation metrics show that the model generalizes well to new data.
+- **Transformer-based Model**: The significant gains in loss and accuracy illustrate the model's ability to capture long-range dependencies and complex patterns through multi-head self-attention. This results in superior performance in both training and validation phases, enhancing the quality and coherence of text generation.
+
+ Conclusion:
+The loss and accuracy plots for both models highlight their respective strengths and improvements. The Bigram Language Model shows steady gains, while the Transformer-based Model demonstrates substantial enhancements in performance, validating the effectiveness of advanced techniques like multi-head self-attention.
+
