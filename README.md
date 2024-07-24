@@ -64,8 +64,10 @@ Well, runrided-should first have won the shall nothing my fites, me by thou bray
 - **Generated Text Quality:** Qualitative evaluation based on the coherence and meaningfulness of the generated text.
 
 ## Results
-[!Bigram Language Model](bi.png)
-[!Transformer-based Model](multihead.png)
+### Bigram Language Model
+![Bigram Language Model](bi.png)
+### Transformer-based Model
+![Transformer-based Model](multihead.png)
 
 ## Dependencies
 - Python
