@@ -63,17 +63,92 @@ Well, runrided-should first have won the shall nothing my fites, me by thou bray
 - **Accuracy:** The ratio of correctly predicted characters to the total characters. Higher accuracy indicates better performance.
 - **Generated Text Quality:** Qualitative evaluation based on the coherence and meaningfulness of the generated text.
 
-## Conclusion:
-This project illustrates the progression from a basic Bigram model to an advanced Transformer-based model, highlighting the significant improvements in text generation quality. The Transformer model's ability to produce coherent and contextually relevant text demonstrates the advancements in language model architectures. This repository serves as a comprehensive guide to understanding the evolution and implementation of language models for text generation tasks.
+## Results
+[!Bigram Language Model](bi.png)
+[!Transformer-based Model](multihead.png)
+
+## Dependencies
+- Python
+- NumPy
+- PyTorch
+- Matplotlib
+
+## Installation
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/yourusername/core-model-gpt.git
+    cd core-model-gpt
+    ```
+
+2. **Install Required Libraries**:
+    ```bash
+    pip install numpy torch matplotlib
+    ```
+
+## Usage
+1. **Preprocess the Data**:
+    - Ensure the Tiny Shakespeare dataset is in the specified path.
+    - Run the preprocessing script to tokenize and prepare the data.
+
+2. **Train the Models**:
+    - Execute the training script to train both the Bigram and Transformer-based models.
+    ```bash
+    python train.py
+    ```
+
+3. **Evaluate the Models**:
+    - Run the evaluation script to assess the performance of the trained models.
+    ```bash
+    python evaluate.py
+    ```
 
 ## How to Use:
 1. **Dependencies:** Install the necessary dependencies.
 2. **Data Preparation**: Download and preprocess the Tiny Shakespeare dataset.
-3. **Training**: Run the training scripts for both models to train them on the dataset.
-4. **Evaluation**: Evaluate the models using the provided evaluation scripts to measure their performance.
-5. **Text Generation**: Use the trained models to generate text and compare their outputs.
+3. **Implemetation**: Run the training and evaluation scripts for both models to train and study them on the dataset.
+4. **Text Generation**: Use the trained models to generate text and compare their outputs.
+
+## Contributing
+Contributions are welcome! To contribute to this project, please follow these steps:
+
+1. **Fork the Repository**:
+    ```bash
+    git clone https://github.com/yourusername/bigram-transformer-model.git
+    cd bigram-transformer-model
+    ```
+
+2. **Create a New Branch**:
+    ```bash
+    git checkout -b feature-or-bugfix-name
+    ```
+
+3. **Make Your Changes and Commit**:
+    ```bash
+    git commit -am 'Add new feature or fix'
+    ```
+
+4. **Push Your Branch**:
+    ```bash
+    git push origin feature-or-bugfix-name
+    ```
+
+5. **Create a Pull Request**:
+    - Go to the repository on GitHub.
+    - Click on "New Pull Request."
+    - Describe your changes and submit the PR.
+
+## Conclusion:
+This project illustrates the progression from a basic Bigram model to an advanced Transformer-based model, highlighting the significant improvements in text generation quality. The Transformer model's ability to produce coherent and contextually relevant text demonstrates the advancements in language model architectures. This repository serves as a comprehensive guide to understanding the evolution and implementation of language models for text generation tasks.
+
+## Acknowledgements
+- Special thanks to the developers of [PyTorch](https://pytorch.org/) for their robust deep learning library.
+- Gratitude to the contributors of the [Tiny Shakespeare dataset](https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt) for providing an excellent corpus for language model training.
+- Appreciation to the open-source community for their invaluable resources and support.
 
 ## Future Work:
 Hyperparameter Tuning: Experiment with different hyperparameters to further improve model performance.
 Larger Datasets: Train the models on larger and more diverse datasets for better generalization.
 Advanced Architectures: Explore more advanced architectures like GPT-3 or BERT for even better performance.
+
+## Contact
+For questions or suggestions, please open an issue or contact the repository owner.
