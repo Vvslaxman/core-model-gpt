@@ -153,4 +153,4 @@ Larger Datasets: Train the models on larger and more diverse datasets for better
 Advanced Architectures: Explore more advanced architectures like GPT-3 or BERT for even better performance.
 
 ## Contact
-For questions or suggestions, please open an issue or contact the repository owner.
+For questions or suggestions, please open an issue or contact [Vvslaxman](mailto:vvslaxman14@gmail.com).
