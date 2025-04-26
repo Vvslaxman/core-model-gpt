@@ -148,9 +148,9 @@ This project illustrates the progression from a basic Bigram model to an advance
 - Appreciation to the open-source community for their invaluable resources and support.
 
 ## Future Work:
-Hyperparameter Tuning: Experiment with different hyperparameters to further improve model performance.
-Larger Datasets: Train the models on larger and more diverse datasets for better generalization.
-Advanced Architectures: Explore more advanced architectures like GPT-3 or BERT for even better performance.
+- Hyperparameter Tuning: Experiment with different hyperparameters to further improve model performance.
+- Larger Datasets: Train the models on larger and more diverse datasets for better generalization.
+- Advanced Architectures: Explore more advanced architectures like GPT-3 or BERT for even better performance.
 
 ## Contact
 For questions or suggestions, please open an issue or contact [Vvslaxman](mailto:vvslaxman14@gmail.com).
